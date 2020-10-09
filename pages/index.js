@@ -18,11 +18,12 @@ import AppScreen from "../components/AppScreen";
 import FAQ from "../components/FAQ";
 import Clients from "../components/Clients";
 import Testimonials from "../components/Testimonials";
+import Watermark from "../components/Watermark/Watermark";
 
 const HomePage = () => (
   <div>
     <Preloader />
-
+    <Watermark />
     <Layout pageTitle="SoloShah | Home Page">
       <Header
         btnClass="main-nav__btn"
